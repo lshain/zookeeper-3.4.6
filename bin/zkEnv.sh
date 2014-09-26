@@ -51,6 +51,7 @@ then
     . "$ZOOCFGDIR/java.env"
 fi
 
+export ZOO_LOG_DIR="/home/hadoop/hadoop_disk/data0/zookeeper_logs"
 if [ "x${ZOO_LOG_DIR}" = "x" ]
 then
     ZOO_LOG_DIR="."
